@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Descripcion" content="Clinica de primera vanguardia">
+    <meta name="Autor" content="Rodrigo Coll">
+    <meta name="copyright" content="Clinica Aurora SRL">
+    <link rel="shortcut icon" href="Imagenes/Logo_pestaña.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Clínica, Aurora, Clinica aurora, Clinica de vanguardia, atención medica, médico, asistencia médica, hospital, emergencia, ginecologo, pediatra clinica, aurora">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <title>Clinica Aurora - Especialistas en cuidado de vida</title>
+</head>
+  <body>
+    <div class="consulta">
+    <h1>CONSULTA</h1>
+    <h5>Por favor, ingrese su consulta a continuación</h5>
+    <form class="formulario_consulta">
+      <label for="nombre">Nombre:</label>
+      <input class="nombre" type="text">
+      <br>
+      <label for="Apellido"></label>Apellido:</label>
+      <input class="Apellido" type="text">
+      <br>
+      <label for="email">Correo:</label>
+      <input class="email" type="email" required>
+      <br>
+      <label for="telefono">Teléfono:</label>
+      <input class="telefono" type="number" required>
+      <br>
+      <label for="lista_estado">Estado civil</label>
+      <select name="lista_estado" id="" required>
+        <option value="">-</option>
+        <option value="">Soltero/a</option>
+        <option value="">Casado/a</option>
+        <option value="">Divorciado/a</option>
+      </select>
+      <br>
+      <br>
+      <textarea name="consulta" id="" cols="30" rows="10" placeholder="Ingrese su consulta"></textarea>
+      <br>
+      <span class="botones_final">
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Limpiar formulario">
+      </span> 
+    </form>
+    <br>
+    <a href="../index.html"><input type="button" value="Volver a inicio"></a>
+    </div>
+  </body>
+</html>
