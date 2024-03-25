@@ -1,0 +1,34 @@
+/* FOOTER */
+
+footer {
+    height: 75px;
+    width: 100%;
+    padding: 1em;
+    margin-top: auto;
+    background-color: #c16ed1;
+    text-align: center;
+
+    p {
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        padding-top: 5px;
+    }
+}
+
+.redesFooter {
+    display: inline-block;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: #9500b3;
+        margin-right: 15px;
+        font-size: 20px;
+
+        &:hover {
+            color: #ffffff;
+            transition: 0.3s;
+        }
+    }
+}

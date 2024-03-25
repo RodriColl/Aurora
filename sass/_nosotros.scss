@@ -1,0 +1,54 @@
+/*SOBRE NOSOTROS*/
+
+.Nosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sobreNosotros {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    height: 460px;
+    width: 100%;
+    background-color: #ebcefc;
+    border: 2px solid #c27df02a;
+    border-radius: 4px;
+}
+
+.text__nosotros {
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #9900ff;
+    text-shadow: 0px 5px 10px rgb(182, 182, 182);
+}
+
+.sobreNosotros p {
+    display: grid;
+    grid-column-start: 1;
+    font-size: 20px;
+    color: #9900ff;
+    padding: 0 10px;
+}
+
+.imgSobre {
+    height: 460px;
+    width: 100% px;
+    background-image: url(../Imagenes/Hospital.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .Nosotros {
+        margin-top: 0px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .sobreNosotros {
+        height: 440px;
+        width: 100% px;
+        background-color: #ebcefc;
+    }
+}
